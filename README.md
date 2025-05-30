@@ -29,9 +29,9 @@ A simple yet delightful Flutter app that lets you play musical notes by tapping 
 ## 🖼️ Screenshots
 
 <p float="left">
-  <img src="assets/screenshots/home_screen.png" alt="Main Screen" width="30%"/>
-  <img src="assets/screenshots/home_screen_ph.jpeg" alt="Mobile View" width="30%"/>
-  <img src="assets/screenshots/home_screen_pc.png" alt="Desktop View" width="30%"/>
+  <img src="assets/screenshots/home_screen.PNG" alt="Main Screen" width="30%"/>
+  <img src="assets/screenshots/home_screen_ph.jpeg" alt="Mobile View" width="576"/>
+  <img src="assets/screenshots/home_pc.PNG" alt="Desktop View" width="30%"/>
 </p>
 
 ## 🛠️ Technical Stack
