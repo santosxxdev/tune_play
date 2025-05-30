@@ -29,18 +29,31 @@ class HomePage extends StatelessWidget {
         elevation: 3,
         shadowColor: Colors.grey,
       ),
-      body: Column(
-        children: [
-          Itemcolors(colorModel: colors[0],),
-          Itemcolors(colorModel: colors[1],),
-          Itemcolors(colorModel: colors[2],),
-          Itemcolors(colorModel: colors[3],),
-          Itemcolors(colorModel: colors[4],),
-          Itemcolors(colorModel: colors[5],),
-          Itemcolors(colorModel: colors[6],),
 
-        ],
-      ),
+      // Used Map to add all colors in the list of colors variable
+      body: Column(
+        children: colors.map((e) => Itemcolors(colorModel: e),).toList(),
+      )
+      
+      // body: Column(
+      //   // build method for loop to add all colors in the list of colors variable
+      //   children: buildItemColors(),
+      // ),
+
+      // Or Used List Builder
+      // body: ListView.builder(itemBuilder: (context, index) {
+      //   return Itemcolors(colorModel: colors[index]);
+      // }),
     );
   }
+
+  List<Itemcolors> buildItemColors(){
+    List<Itemcolors> colorsloop = [];
+
+    for(int i = 0; i < colors.length; i++){
+      colorsloop.add(Itemcolors(colorModel: colors[i]));
+    }
+    return colorsloop;
+  }
+
 }
