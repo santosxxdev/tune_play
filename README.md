@@ -6,6 +6,7 @@ A simple yet delightful Flutter app that lets you play musical notes by tapping 
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 ![Multiplatform](https://img.shields.io/badge/-Multiplatform-blueviolet?style=for-the-badge)
 
+
 ## ✨ Features
 
 - 🎶 Play 7 distinct musical notes
